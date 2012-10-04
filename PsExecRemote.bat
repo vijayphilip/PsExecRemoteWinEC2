@@ -13,7 +13,7 @@ SET STARTTIME=%date% : %time%
 @echo ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 @echo Remote EC2: %IPA%
 @echo Remote User: %USER% : Password:%PSWD%
-@echo Remote S3 Sync Script: %EXE%
+@echo Remote Script/Exe: %EXE%
 @echo Version: %VERSION%
 @echo Author: %AUTHOR%
 @echo Credits: %CREDITS%
