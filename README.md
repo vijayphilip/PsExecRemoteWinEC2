@@ -25,7 +25,7 @@ Edit PsExecRemote.bat Source
 - SET PSWD="abcd1234"( Remote EC2 Account Password)
 - SET EXE="C:\script.bat"( Path on Remote EC2 Instance to script/exe )
 
-- Please note that PSWD & EXE variables enclosed in quotations. Some non-alphanumeric characters like "&" or spaces can create the batch file to fail. Enclosing them in quotations is safe way to pass these parameters within the batch script.
+- Please note that PSWD & EXE variables enclosed in quotations. Some non-alphanumeric characters like "&" or spaces can cause the batch file to fail. Enclosing them in quotations is safe way to pass these parameters within the batch script.
 
 Final Notes
 =================
