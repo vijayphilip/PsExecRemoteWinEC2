@@ -7,8 +7,8 @@ Requirements
 =================
 - Download the PsExec program from http://technet.microsoft.com/en-us/sysinternals/bb897553.aspx Or download PsExec.exe version 1.98 from the github repo.
 - Download the batch script.
-- PsExec.exe is the remote process tool that allows an administrator to run processes on a remote system.
-- PsExecRemote.bat- script that automates the PsExec with ec2 information to run the remote exe/ batch script. 
+- PsExec.exe  - remote process tool that allows an administrator to run processes on a remote system.
+- PsExecRemote.bat - script that automates the PsExec with ec2 information to run the remote exe/ batch script. 
 
 Remote EC2 Instance Setup / Info
 =================
