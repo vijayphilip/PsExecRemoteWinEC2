@@ -7,7 +7,7 @@ Requirements
 =================
 - Download the PsExec program from http://technet.microsoft.com/en-us/sysinternals/bb897553.aspx Or download PsExec.exe version 1.98 posted here
 - PsExec.exe  - remote process execution tool published by Mark Russinowich that allows an administrator to run processes on a remote system.
-- Download the batch script, PsExecRemote.bat - script that automates the PsExec with ec2 information to remotely run the exe/batch script. 
+- Download the batch script, PsExecRemote.bat, that automates the PsExec with ec2 information to remotely run an exe/script. 
 
 Remote EC2 Instance Setup / Info
 =================
@@ -24,7 +24,7 @@ Edit PsExecRemote.bat Source
 - SET PSWD="abcd1234"( Remote EC2 Account Password)
 - SET EXE="C:\script.bat"( Path on Remote EC2 Instance to script/exe )
 
-- Please note that PSWD & EXE variables enclosed in quotations. Some non-alphanumeric characters like "&" or spaces can cause the batch file to fail. Enclosing them in quotations is safe way to pass these parameters within the batch script.
+- Please note that PSWD & EXE variables enclosed in quotations. Some non-alphanumeric characters like "&" or spaces can cause the batch file to fail. Enclosing them in quotations is a safe way to pass these parameters within the batch script.
 
 Final Notes
 =================
