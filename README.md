@@ -5,7 +5,7 @@ Remote Script Execution for AWS EC2 Win Admins using Psexec by Mark Russinowich
 
 Requirements
 =================
-- Download the PsExec program from http://technet.microsoft.com/en-us/sysinternals/bb897553.aspx Or download PsExec.exe version 1.98 from the github repo.
+- Download the PsExec program from http://technet.microsoft.com/en-us/sysinternals/bb897553.aspx Or download PsExec.exe version 1.98 posted here.
 - Download the batch script.
 - PsExec.exe  - remote process tool that allows an administrator to run processes on a remote system.
 - PsExecRemote.bat - script that automates the PsExec with ec2 information to run the remote exe/ batch script. 
@@ -32,4 +32,4 @@ Final Notes
 - Run the batch file, check to see the results.log for output of the run.
 - You can automate the batch file call via your publishing program.
 - TCP Port 445 has been opened for traffic in the AWS security group and on the EC2 instance.  
-- It is advisable to restrict the TCP port 445 rule on AWS security group to connections only from the remote endpoint of the publisher where the remote script will be executed.
+- It is advisable to restrict the TCP port 445 rule on AWS security group to connections only to your specific endpoints.
